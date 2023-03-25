@@ -1,0 +1,49 @@
+.grandTitre {
+    color: blue;
+    font-size: 55px;
+    background-color: darkorange;
+    text-align: center;
+    border-radius: 40px;
+}
+
+.image {
+    width: 50%;
+    border-radius: 40px;
+    border: 3px solid blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+}
+
+.grid-item {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 30px;
+    cursor: pointer;
+    border: 1px solid black;
+    padding: 0 20px;
+}
+
+.jeep {
+    width: 300px;
+}
